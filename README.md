@@ -1,7 +1,9 @@
 #KanyeC
 
-Programming language based on the brilliance of Kanye West. ![god himself](http://40.media.tumblr.com/tumblr_m73zms46kS1rue873o1_400.png)
+Programming language based on the brilliance of Kanye West. 
 Based off of lhartikk/ArnoldC
+
+![god himself](http://40.media.tumblr.com/tumblr_m73zms46kS1rue873o1_400.png)
 
 ##Motivation
 
