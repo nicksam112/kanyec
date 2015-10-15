@@ -1,4 +1,4 @@
-package org.arnoldc.ast
+package org.kanyec.ast
 
 abstract class AbstractMethodNode extends AstNode {
   val statements: List[StatementNode]

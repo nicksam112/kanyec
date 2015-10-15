@@ -1,8 +1,8 @@
-package org.arnoldc.ast
+package org.kanyec.ast
 
 import org.objectweb.asm.MethodVisitor
 import org.objectweb.asm.Opcodes._
-import org.arnoldc.SymbolTable
+import org.kanyec.SymbolTable
 import org.parboiled.errors.ParsingException
 
 case class CallMethodNode(returnVar: String, methodName: String, arguments: List[OperandNode]) extends StatementNode {
