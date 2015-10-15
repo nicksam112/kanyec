@@ -1,8 +1,8 @@
-package org.arnoldc.ast
+package org.kanyec.ast
 
 import org.objectweb.asm.{Opcodes, MethodVisitor, Label}
 import org.objectweb.asm.Opcodes._
-import org.arnoldc.SymbolTable
+import org.kanyec.SymbolTable
 
 case class GreaterThanNode(operand1: AstNode, operand2: AstNode) extends ExpressionNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {

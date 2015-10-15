@@ -1,8 +1,8 @@
-package org.arnoldc.ast
+package org.kanyec.ast
 
 import org.objectweb.asm.MethodVisitor
 import org.objectweb.asm.Opcodes._
-import org.arnoldc.SymbolTable
+import org.kanyec.SymbolTable
 
 case class StringNode(value: String) extends OperandNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {

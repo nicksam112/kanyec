@@ -1,9 +1,9 @@
-package org.arnoldc.ast
+package org.kanyec.ast
 
 import org.objectweb.asm.{Label, MethodVisitor}
 import org.objectweb.asm.Opcodes._
 import scala.Array
-import org.arnoldc.SymbolTable
+import org.kanyec.SymbolTable
 
 case class AndNode(operand1: AstNode, operand2: AstNode) extends ExpressionNode {
   def generate(mv: MethodVisitor, symbolTable: SymbolTable) {
