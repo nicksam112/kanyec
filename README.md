@@ -1,21 +1,21 @@
-#KanyeC
+# KanyeC
 
 Programming language based on the brilliance of Kanye West. 
-Based off of lhartikk/ArnoldC
+Based off of [lhartikk/ArnoldC](https://github.com/lhartikk/ArnoldC).
 
 ![god himself](http://40.media.tumblr.com/tumblr_m73zms46kS1rue873o1_400.png)
 
-##Motivation
+## Motivation
 
 Making this was more exciting than doing my homework. 
 
-##HelloWorld.kanyec
+## HelloWorld.kanyec
 
 	I am the greatest
 	make her say "hello world"
 	I still think I am the greatest
 
-##Brief overview of the keywords
+## Brief overview of the keywords
 
 Method | Phrase
 -------|-------
